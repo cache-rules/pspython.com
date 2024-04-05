@@ -22,6 +22,16 @@ value is separated by `---`, which allows values to be multiline.
 admin panel [http://localhost:5000/admin/root/edit](http://localhost:5000/admin/root/edit)
 * For additional info see the [Lektor Content Docs](https://www.getlektor.com/docs/content/)
 
+## Adding a link to the index
+1. Determine what icon you want to use for the link
+2. Open databages/home_links.json
+3. Add an object that specifies the href, icon, and title
+4. Add the key to that object in the "links" array
+
+## Adding a member to the CoC Comittee
+1. Open coc_staff.json
+2. Add the new staff member
+
 ## Adding a page manually
 1. Create a new folder in `content/`, where the folder name is the desired URL of your post
 (for example `content/hello-world` will become `www.pspython.com/hello-world`)
