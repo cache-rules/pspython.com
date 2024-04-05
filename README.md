@@ -48,8 +48,6 @@ admin panel [http://localhost:5000/admin/root/edit](http://localhost:5000/admin/
 
 # Deploying
 
-TODO: this has not been completed yet, so this section will not work yet. It should in a future
-commit, or be updated to reflect some other instructions for deploying updates to the site.
-
-Deploying is easy, to deploy just run the `lektor deploy` command and enter the password when
-prompted.
+Deploying is easy, to deploy just run the `lektor deploy ghpages`, Lektor will build the site, then
+commit the built site to the `gh-pages` branch, and push, which will get deployed by GitHub
+automatically.

@@ -2,7 +2,8 @@
 name = PuPPy (Puget Sound Programming Python)
 url = www.pspython.com
 
-[servers.production]
+[servers.ghpages]
 name = Production
 enabled = no
 default = yes
+target = ghpages://cache-rules/pspython.com
