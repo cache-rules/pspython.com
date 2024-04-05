@@ -1,0 +1,20 @@
+<div class="content">
+  <h2>Staff Contact Information</h2>
+
+  <p>
+    If for any reason you need to report an issue, please contact us! You can email us at
+    <a href="mailto:conduct@pspython.com">conduct@pspython.com</a>.
+  </p>
+
+  {% for name in bag('coc_staff.names') %}
+    <p>
+      <strong>{{ bag('coc_staff.members.' + name + '.name') }}</strong>
+    </p>
+    <ul>
+      <li>
+        <a href="mailto:{{ bag('coc_staff.members.' + name + '.email') }}">{{ bag('coc_staff.members.' + name + '.email') }}</a>
+      </li>
+      <li>slack: {{ bag('coc_staff.members.' + name + '.slack') }}</li>
+    </ul>
+  {% endfor %}
+</div>

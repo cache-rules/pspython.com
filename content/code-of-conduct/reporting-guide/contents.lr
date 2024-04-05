@@ -1,0 +1,53 @@
+related_pages:
+
+index
+response-playbook
+---
+title: Reporting Guide
+---
+content:
+
+#### coc_staff ####
+#### section ####
+title: What to include in the report
+----
+body:
+
+*   Your contact information (so we can get in touch with you if we need to follow up)
+*   Names of any individuals involved (real names, nicknames, or pseudonyms). If there were other witnesses besides you, please try to include them as well.
+*   When and where the incident occurred. Please be as specific as possible.
+*   Your account of what occurred. If there is a publicly available record (e.g., a mailing list archive or a public chat logger) please include a link. Our Slack Team is currently on a free plan that does not retain more than 10,000 messages of history, if an incident occurred on Slack please take a screenshot so it is not lost.
+*   Any extra context you believe existed for the incident.
+*   Whether you believe this incident is ongoing.
+*   Any other information you believe we should have.
+#### section ####
+title: What happens after you file a report
+----
+body:
+
+The PuPPy community team aims to follow the process outlined in the [Code of Conduct Response Playbook](/pages/code-of-conduct/response-playbook).
+
+We promise to acknowledge receipt of any reports within 24 hours or sooner, and a resolution (or update in case a resolution is delayed) within 7 days.
+
+Note: If the violation is determined to be an ongoing incident or a threat to physical safety, the staff’s immediate priority will be to protect everyone involved. This means we may delay an "official" response until we believe that the situation has ended and that everyone is physically safe.
+
+Once we determine the final needed action, we’ll contact the original reporter to let them know what action we’ll be taking, if any. Please understand that while we take into account feedback from the reporter on the appropriateness of our response, we cannot guarantee we can or will act on it.
+
+Finally, the staff may choose to make a public report of the incident if it was reported outside one of our conferences.
+#### section ####
+title: Appealing
+----
+body:
+
+Only permanent resolutions (such as bans) may be appealed. To appeal a decision, contact the PuPPy staff at [conduct@pspython.com](mailto:conduct@pspython.com) with your appeal and they will review the case.
+---
+description:
+
+In any PuPPy space (events or online), if you believe someone is violating the [Code of Conduct](/pages/code-of-conduct), we ask that you report it to the staff by emailing [conduct@pspython.com](mailto:conduct@pspython.com) or reporting to a staff person in person, if possible. All reports will be kept confidential. In some cases, we may determine that a public statement will need to be made. If that’s the case, the identities of all victims and reporters will remain confidential unless those individuals instruct us otherwise.
+
+If you believe anyone is in physical danger, please notify appropriate law enforcement first. If you are unsure which law enforcement agency is appropriate, please include this in your report and we will attempt to notify them.
+
+If the violation occurs at an event (such as workshop, meetup), get in touch with one of the event staff right away, in any of the following ways:
+
+*   In person
+*   By email

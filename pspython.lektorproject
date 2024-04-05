@@ -1,0 +1,8 @@
+[project]
+name = PuPPy (Puget Sound Programming Python)
+url = www.pspython.com
+
+[servers.production]
+name = Production
+enabled = no
+default = yes

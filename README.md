@@ -1,0 +1,45 @@
+# Setup
+
+1. Clone this repo somewhere on your machine.
+2. Install Python
+3. [Install Lektor](https://www.getlektor.com/docs/installation/)
+    - Lektor requires imagemagick which can be installed via `brew install imagemagick` on OS X.
+4. To run the dev server run `lektor serve`, which will start a web server at
+`http://127.0.0.1:5000/` where you can preview the site, and access the admin panel.
+
+# Adding content
+
+Adding content in Lektor is pretty easy, just go to the localhost server and use the UI to add a new
+page or blogpost.
+
+Adding content manually is also pretty straightforward, for the most part you need to do two things:
+* Create a folder somewhere in the `/content` folder, where the name of the folder will be the
+desired URL slug (for example `content/hello-world/` will become `www.pspython.com/hello-word/`).
+* Create a `contents.lr` file in the folder you just created, this will host all of the text content
+and other settings for the page. A `contents.lr` file is is a key-value file, where each key and
+value is separated by `---`, which allows values to be multiline.
+* If you want to use a UI to do this work for you, you can start the dev server and navigate to the
+admin panel [http://localhost:5000/admin/root/edit](http://localhost:5000/admin/root/edit)
+* For additional info see the [Lektor Content Docs](https://www.getlektor.com/docs/content/)
+
+## Adding a page manually
+1. Create a new folder in `content/`, where the folder name is the desired URL of your post
+(for example `content/hello-world` will become `www.pspython.com/hello-world`)
+2. Add a `contents.lr` file with the following contents:
+    ```
+    _model: page
+    ---
+    title: Your Title Here (Can be different than folder name)
+    ---
+    body:
+    # The Contents of the page
+    All of this supports [Markdown](https://www.markdownguide.org/basic-syntax)
+    ```
+
+# Deploying
+
+TODO: this has not been completed yet, so this section will not work yet. It should in a future
+commit, or be updated to reflect some other instructions for deploying updates to the site.
+
+Deploying is easy, to deploy just run the `lektor deploy` command and enter the password when
+prompted.

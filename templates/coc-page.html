@@ -1,0 +1,6 @@
+{% extends "layout.html" %}
+{% from "macros/coc-page.html" import render_coc_page %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+  {{ render_coc_page(this) }}
+{% endblock %}

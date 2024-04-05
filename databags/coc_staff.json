@@ -1,0 +1,24 @@
+{
+    "names": [
+        "miles",
+        "maelle",
+        "russell"
+    ],
+    "members": {
+        "miles": {
+            "email": "miles@pspython.com",
+            "name": "Miles Erickson",
+            "slack": "@miles"
+        },
+        "maelle": {
+            "email": "maelle@pspython.com",
+            "name": "Maelle Vance",
+            "slack": "@Maelle (they/them)"
+        },
+        "russell": {
+            "email": "russell@pspython.com",
+            "name": "Russell Duhon",
+            "slack": "@fugu13"
+        }
+    }
+}

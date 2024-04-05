@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+{% block title %}
+Puget Sound Programming Python
+{% endblock %}
+{% block body %}
+  <section class="home-gradient hero is-fullheight">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <div class="level home-links">
+          {% for link in bag('home_links').links %}
+            <div class="level-item has-text-centered">
+              <a href="{{bag('home_links.' + link + '.href')}}">
+                <div class="home-link-item">
+                  <i class="{{bag('home_links.' + link + '.icon')}} fa-4x"></i>
+                  <span class="home-link-item__label">{{bag('home_links.' + link + '.title')}}</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="level-item has-text-centered">
+              <div class="vertical-line"></div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+  </section>
+{% endblock %}
