@@ -10,7 +10,7 @@
 # Adding content
 
 Adding content in Lektor is pretty easy, just go to the localhost server and use the UI to add a new
-page or blogpost.
+page.
 
 Adding content manually is also pretty straightforward, for the most part you need to do two things:
 * Create a folder somewhere in the `/content` folder, where the name of the folder will be the
