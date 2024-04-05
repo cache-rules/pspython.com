@@ -4,6 +4,6 @@ url = www.pspython.com
 
 [servers.ghpages]
 name = Production
-enabled = no
+enabled = yes
 default = yes
 target = ghpages://cache-rules/pspython.com
