@@ -12,7 +12,7 @@
         "title": "Upcoming Events"
     },
     "slack": {
-        "href": "http://slack.pspython.com",
+        "href": "https://slack.pspython.com",
         "icon": "fab fa-slack",
         "title": "Slack"
     },
