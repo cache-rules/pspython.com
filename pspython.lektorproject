@@ -6,4 +6,4 @@ url = www.pspython.com
 name = Production
 enabled = yes
 default = yes
-target = ghpages://cache-rules/pspython.com
+target = ghpages://cache-rules/pspython.com?cname=www.pspython.com
