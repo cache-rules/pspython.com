@@ -4,6 +4,7 @@
         "slack",
         "speak",
         "sponsor",
+        "donate",
         "coc"
     ],
     "upcoming": {
@@ -30,5 +31,10 @@
         "href": "/code-of-conduct",
         "icon": "fas fa-file-alt",
         "title": "Code of Conduct"
+    },
+    "donate": {
+        "href": "https://psfmember.org/civicrm/contribute/transact/?reset=1&id=15",
+        "icon": "fas fa-money-bill-alt",
+        "title": "Donate"
     }
 }
