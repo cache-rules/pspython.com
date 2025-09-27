@@ -5,6 +5,7 @@
         "speak",
         "sponsor",
         "donate",
+        "youtube",
         "coc"
     ],
     "upcoming": {
@@ -36,5 +37,10 @@
         "href": "https://psfmember.org/civicrm/contribute/transact/?reset=1&id=15",
         "icon": "fas fa-money-bill-alt",
         "title": "Donate"
+    },
+    "youtube": {
+        "href": "https://www.youtube.com/@pspython/videos",
+        "icon": "fab fa-youtube",
+        "title": "YouTube Channel"
     }
 }
